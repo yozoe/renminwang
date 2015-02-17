@@ -12,6 +12,7 @@ import com.android.volley.toolbox.Volley;
  */
 public class AppCtx extends Application {
 
+    //
     private static Context sAppContext;
     private static AppCtx sAppCtx;
 
