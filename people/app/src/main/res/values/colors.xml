@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- base -->
+    <color name="common_bg">#f0f0f0</color>
+    <color name="transparent">#00000000</color>
+    <color name="home_title">#4dc6d5</color>
+
+    <!-- 事情页选中字的颜色 -->
+    <color name="color_blue_00be8f">#4dc6d5</color>
+    <!-- 事情页选中下划线的颜色 -->
+    <color name="color_blue_08c092">#4dc6d5</color>
+    <!-- 事情页未选中字的颜色 -->
+    <color name="color_gray_bbbbbb">#bbbbbb</color>
+    <!-- 事情页item收起时字体的颜色 -->
+    <color name="color_black_010101">#010101</color>
+    <color name="color_gray_666">#666666</color>
+    <color name="color_blue_80dfc7">#80dfc7</color>
+    <color name="color_home_title_485052">#485052</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="bg_f0f0f0">#f0f0f0</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#ff75a6ff</color>
+    <color name="translucence">#ff4e4752</color>
+    <color name="orange_yellow">#ff9320</color>
+    <color name="login_bg_100000000">#f0f0f0</color>
+    <color name="login_line_bebebe">#bebebe</color>
+    <color name="bg_event_detail_header1">#bf5b5d5f</color>
+    <color name="text_item_post_bottom_notselected">#ccccc8</color>
+    <color name="text_item_post_bottom_selected">#ff4b4b</color>
+    <color name="focus_title_filter_pressed">#465866</color>
+    <color name="listcount">#bbc1c2</color>
+    <color name="line_posts_detail_dedede">#dedede</color>
+    <color name="viewfinder_frame">#1ebd90</color>
+    <color name="viewfinder_mask">#a0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="photo_gridview">#00000000</color>
+    <color name="color_text_comment_gray">#999999</color>
+    <color name="color_text_comment_black">#030303</color>
+    <color name="color_clipview_85223035">#da223035</color>
+    <color name="color_newmessage_yellow">#c5884c</color>
+    <color name="color_photo_bg">#262e32</color>
+    <color name="color_photo_line">#2e353b</color>
+    <color name="circle_border">#aaaaaa</color>
+    <color name="personal_head_border">#99ffffff</color>
+    <color name="darkgray">#404040ff</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#f1fd37</color>
+    <color name="lightgray">#c0c0c0ff</color>
+    <color name="yellow">#ffFF33ff</color>
+    <color name="gray">#ff666666</color>
+    <color name="text_gray2">#ffC3C3C3</color>
+    <color name="magenta">#ff6699ff</color>
+    <color name="cyan">#66ffffff</color>
+    <color name="camera_green">#4dc6d5</color>
+    <color name="transparent_black">#ff000000</color>
+    <color name="background_dark">#f0f0f0</color>
+    <color name="camera_bg">#2c2c2c</color>
+    <color name="camera_progress">#2980B9</color>
+    <color name="camera_progress_split">#005084</color>
+    <color name="camera_progress_three">#4dc6d5</color>
+    <color name="camera_progress_overflow">#1b5d89</color>
+    <color name="camera_progress_active">#40FD5D</color>
+    <color name="camera_theme_selected_bgcolor">#2980B9</color>
+    <color name="camera_bottom_press_bg">#1b1c1f</color>
+    <color name="title_background_color">#1FBF8D</color>
+    <color name="camera_progress_delete">#8E4254</color>
+    <color name="translucent_background_80">#CC000000</color>
+    <color name="translucent_background_50">#7f000000</color>
+    <color name="transparent_black_40">#66000000</color>
+    <color name="transparent_black_85">#272E34</color>
+    <color name="transparent_black_30">#4D000000</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="event_bestspeaker_gray">#bbbbbb</color>
+    <color name="event_bestspeaker_green">#17B47D</color>
+    <color name="draft_send_background">#193653</color>
+    <color name="home_name_color">#ff7f6a</color>
+    <color name="message_center_top">#ddf2f1</color>
+
+</resources>
