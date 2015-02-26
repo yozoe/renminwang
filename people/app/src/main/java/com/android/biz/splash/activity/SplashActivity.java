@@ -1,16 +1,13 @@
-package com.android.activity;
+package com.android.biz.splash.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.app.activities.BaseActivity;
 import com.android.biz.login.LoginActivity;
-import com.example.issuser.people.R;
 
 /**
  * Created by issuser on 15/2/12.
