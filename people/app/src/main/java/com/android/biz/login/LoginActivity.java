@@ -62,7 +62,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 }, new AppCallback<LoginRegistReturnModel>() {
                     @Override
                     public void callback(LoginRegistReturnModel loginRegistReturnModel) {
-                        Log.i("hehe", loginRegistReturnModel.toString());
+                        Log.i("hehe", loginRegistReturnModel.getUser().toString());
                     }
 
                     @Override

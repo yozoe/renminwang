@@ -1,9 +1,12 @@
 package com.android.net.http;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.android.app.AppCtx;
 import com.android.content.AppCallback;
+import com.android.net.http.impl.GsonRequest;
+import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 
 /**
@@ -34,7 +37,7 @@ public class JsonHttpClient<T> implements I_HttpClient<T> {
 
     @Override
     public void doGet(String url, String[][] parameters, AppCallback<T> callback) {
-
+        addRequest(Request.Method.GET, url, parameters, null, callback);
     }
 
     @Override
@@ -42,7 +45,7 @@ public class JsonHttpClient<T> implements I_HttpClient<T> {
 
     }
 
-    private void addRequest(int method, String url, String[][] parameters, String requesstBody, AppCallback<T> callback) {
+    private void addRequest(int method, String url, String[][] parameters, String requestBody, AppCallback<T> callback) {
         url = HttpParamterBuilder.buildWithParams(url, parameters);
         final RequestQueue queue = mQueue;
         if (queue == null) {
@@ -50,6 +53,9 @@ public class JsonHttpClient<T> implements I_HttpClient<T> {
         }
         if (mCls == String.class) {
 
+        } else {
+            queue.add(new GsonRequest<T>(method, url, requestBody, mCls, new SimpleVolleyListener<T>(callback),
+                    new SimpleVolleyErrorListener<T>(callback)));
         }
 
     }

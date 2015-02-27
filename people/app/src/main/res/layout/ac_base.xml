@@ -4,14 +4,30 @@
     android:layout_height="match_parent">
 
     <com.android.common.widgets.uibars.TitleBar
+        android:id="@+id/titleBar"
         android:layout_width="wrap_content"
-        android:layout_height="55dp"
-        android:id="@+id/titleBar"></com.android.common.widgets.uibars.TitleBar>
+        android:layout_height="55dp"></com.android.common.widgets.uibars.TitleBar>
 
     <RelativeLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/titleBar"></RelativeLayout>
+        android:layout_below="@id/titleBar">
+
+        <TextView
+            android:id="@+id/textview_prompt_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_baocuo_kuang"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.1"
+            android:minHeight="48dp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
 
 </RelativeLayout>

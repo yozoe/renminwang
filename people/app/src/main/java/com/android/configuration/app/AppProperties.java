@@ -15,6 +15,10 @@ public class AppProperties {
     private Properties sProperties = null;
     private static AppProperties sInstance = null;
 
+    private AppProperties() {
+        sProperties = loadProperties("app.properties");
+    }
+
     public static AppProperties getInstance() {
         if (sInstance == null) sInstance = new AppProperties();
         return sInstance;
