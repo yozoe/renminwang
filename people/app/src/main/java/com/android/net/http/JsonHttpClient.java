@@ -48,6 +48,9 @@ public class JsonHttpClient<T> implements I_HttpClient<T> {
         if (queue == null) {
             return;
         }
+        if (mCls == String.class) {
+
+        }
 
     }
 
